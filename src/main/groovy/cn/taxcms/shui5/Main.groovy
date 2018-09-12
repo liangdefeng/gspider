@@ -13,18 +13,21 @@ import xyz.itbang.gspider.util.Tools
 class Main {
 	static void main(String[] args) {
 		
-		String luofans = "http://www.shui5.cn/article/FaGuiJieDu/"
+		String luofans = "http://www.shui5.cn/article/73/123569.html"
 		def list = [luofans]
 		
 		Spider.crawl {
 			seeds list
 			thread 3
 			rounds 3
-			maxFetch 10000
+			maxFetch 1
 			exclude '.*https:.*'
 		
 			handle { Page page ->
+				
 				println("Handle -> " + page.url)
+				println(page.getDocument().getElementsByClass("arcContent"))
+				
 				//println("Title -> " + page.document.title())
 			}
 		}
