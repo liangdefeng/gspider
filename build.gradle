@@ -4,7 +4,10 @@ version '3.1.1'
 apply plugin: 'groovy'
 apply plugin: 'java'
 apply plugin: 'maven'
-apply plugin: 'signing' //使用signing plugin做数字签名
+apply plugin: 'eclipse'
+
+
+//apply plugin: 'signing' //使用signing plugin做数字签名
 
 sourceCompatibility = 1.8
 
@@ -86,6 +89,14 @@ artifacts {
     archives sourcesJar
 }
 
-signing {
-    sign configurations.archives
+
+
+eclipse.classpath.file {
+	whenMerged { classpath ->
+		classpath.entries.findAll { entry -> entry.kind == 'lib' }*.exported = false
+	}
 }
+
+//signing {
+//    sign configurations.archives
+//}
