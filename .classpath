@@ -2,9 +2,253 @@
 <classpath>
 	<classpathentry kind="src" path="src/main/groovy"/>
 	<classpathentry kind="src" path="src/main/resources"/>
-	<classpathentry kind="src" path="src/test/groovy"/>
-	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8/"/>
 	<classpathentry kind="con" path="org.eclipse.buildship.core.gradleclasspathcontainer"/>
 	<classpathentry exported="true" kind="con" path="GROOVY_DSL_SUPPORT"/>
-	<classpathentry kind="output" path="bin"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8/"/>
+	<classpathentry kind="lib" path="C:/Users/VTE09083/.gradle/caches/modules-2/files-2.1/org.codehaus.groovy/groovy-all/2.4.10/4660c69a6fb68c1507d09e3de01e56bc87ffd85d/groovy-all-2.4.10.jar" sourcepath="C:/Users/VTE09083/.gradle/caches/modules-2/files-2.1/org.codehaus.groovy/groovy-all/2.4.10/4cd3ebb112ce901e969f6f85d2a42c22f04854d0/groovy-all-2.4.10-sources.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/VTE09083/.gradle/caches/modules-2/files-2.1/org.jsoup/jsoup/1.10.2/33ee82e324f4b1e40167f3dc5e01234a1c5cab61/jsoup-1.10.2.jar" sourcepath="C:/Users/VTE09083/.gradle/caches/modules-2/files-2.1/org.jsoup/jsoup/1.10.2/705a50ce237c266feaa279797712cb6bb6c1f34d/jsoup-1.10.2-sources.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/VTE09083/.gradle/caches/modules-2/files-2.1/org.slf4j/slf4j-api/1.7.22/a1c83373863cec7ae8d89dc1c5722d8cb6ec0309/slf4j-api-1.7.22.jar" sourcepath="C:/Users/VTE09083/.gradle/caches/modules-2/files-2.1/org.slf4j/slf4j-api/1.7.22/2b9722cdf33bd0b1d1639a98034dde38b156ad34/slf4j-api-1.7.22-sources.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/VTE09083/.gradle/caches/modules-2/files-2.1/com.caucho/hessian/4.0.38/9824f3e96ed3024bf2757cdd56e045cc9d48f7a8/hessian-4.0.38.jar" sourcepath="C:/Users/VTE09083/.gradle/caches/modules-2/files-2.1/com.caucho/hessian/4.0.38/beb185af108f8724bf34d2ce5c9bff4dcf9f07cd/hessian-4.0.38-sources.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/VTE09083/.gradle/caches/modules-2/files-2.1/org.eclipse.jetty/jetty-rewrite/9.4.5.v20170502/177ce13a2df8894dd84c7297b6b86d4436e11ac3/jetty-rewrite-9.4.5.v20170502.jar" sourcepath="C:/Users/VTE09083/.gradle/caches/modules-2/files-2.1/org.eclipse.jetty/jetty-rewrite/9.4.5.v20170502/bcf0060a51da94e2c7933388f43a1bc837f4ed9/jetty-rewrite-9.4.5.v20170502-sources.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/VTE09083/.gradle/caches/modules-2/files-2.1/org.eclipse.jetty.websocket/javax-websocket-server-impl/9.4.5.v20170502/742fd39cf8bb5189142b79ec535d0ac2d7783f09/javax-websocket-server-impl-9.4.5.v20170502.jar" sourcepath="C:/Users/VTE09083/.gradle/caches/modules-2/files-2.1/org.eclipse.jetty.websocket/javax-websocket-server-impl/9.4.5.v20170502/3fb8ef5e3bdb044a65fccaa994e1797217ca2ec3/javax-websocket-server-impl-9.4.5.v20170502-sources.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/VTE09083/.gradle/caches/modules-2/files-2.1/org.eclipse.jetty.websocket/javax-websocket-client-impl/9.4.5.v20170502/55efc1fcfc9818c921b9fd58f2976f16b3594391/javax-websocket-client-impl-9.4.5.v20170502.jar" sourcepath="C:/Users/VTE09083/.gradle/caches/modules-2/files-2.1/org.eclipse.jetty.websocket/javax-websocket-client-impl/9.4.5.v20170502/e0d8cd43d8ca686032be29404b145b17e52bd6da/javax-websocket-client-impl-9.4.5.v20170502-sources.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/VTE09083/.gradle/caches/modules-2/files-2.1/org.eclipse.jetty.websocket/websocket-server/9.4.5.v20170502/43a51af9063879fc6f479990ffec3059183bddf5/websocket-server-9.4.5.v20170502.jar" sourcepath="C:/Users/VTE09083/.gradle/caches/modules-2/files-2.1/org.eclipse.jetty.websocket/websocket-server/9.4.5.v20170502/3521e2d1b60afad8dca985005e647bf08bfae37e/websocket-server-9.4.5.v20170502-sources.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/VTE09083/.gradle/caches/modules-2/files-2.1/org.eclipse.jetty.websocket/websocket-client/9.4.5.v20170502/5c7de9bd7d448de674267a58e91d804c65f7105a/websocket-client-9.4.5.v20170502.jar" sourcepath="C:/Users/VTE09083/.gradle/caches/modules-2/files-2.1/org.eclipse.jetty.websocket/websocket-client/9.4.5.v20170502/cab0c1aeed65edfeebf1b3ac45197667ab6bd7f0/websocket-client-9.4.5.v20170502-sources.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/VTE09083/.gradle/caches/modules-2/files-2.1/org.eclipse.jetty/jetty-client/9.4.5.v20170502/ca35c26110afd73d4cc164682bd0d4b0c1e057cb/jetty-client-9.4.5.v20170502.jar" sourcepath="C:/Users/VTE09083/.gradle/caches/modules-2/files-2.1/org.eclipse.jetty/jetty-client/9.4.5.v20170502/75920b81ac18bee7e174f25de1d8280f30308532/jetty-client-9.4.5.v20170502-sources.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/VTE09083/.gradle/caches/modules-2/files-2.1/org.eclipse.jetty/jetty-deploy/9.4.5.v20170502/42392d16daca9d06a0c77bc5618cfdc70347de44/jetty-deploy-9.4.5.v20170502.jar" sourcepath="C:/Users/VTE09083/.gradle/caches/modules-2/files-2.1/org.eclipse.jetty/jetty-deploy/9.4.5.v20170502/b392b681b192ead9d62a9340e7a1c3dc2362d759/jetty-deploy-9.4.5.v20170502-sources.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/VTE09083/.gradle/caches/modules-2/files-2.1/org.eclipse.jetty/jetty-quickstart/9.4.5.v20170502/664be45772cfe1fe55d6c934954e51303c88d3a5/jetty-quickstart-9.4.5.v20170502.jar" sourcepath="C:/Users/VTE09083/.gradle/caches/modules-2/files-2.1/org.eclipse.jetty/jetty-quickstart/9.4.5.v20170502/af750369e4570450cc3f5c91ba1c43dd322f07bc/jetty-quickstart-9.4.5.v20170502-sources.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/VTE09083/.gradle/caches/modules-2/files-2.1/org.eclipse.jetty/jetty-jmx/9.4.5.v20170502/b33f8680f52f9ed7da1e0c21c915e80cbbccfd63/jetty-jmx-9.4.5.v20170502.jar" sourcepath="C:/Users/VTE09083/.gradle/caches/modules-2/files-2.1/org.eclipse.jetty/jetty-jmx/9.4.5.v20170502/8c8d42eabb65073d4b557f8942ac236c32b8eb24/jetty-jmx-9.4.5.v20170502-sources.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/VTE09083/.gradle/caches/modules-2/files-2.1/org.eclipse.jetty/jetty-annotations/9.4.5.v20170502/3314471ec06e8edae9a9eef72b41c9e7adc61d35/jetty-annotations-9.4.5.v20170502.jar" sourcepath="C:/Users/VTE09083/.gradle/caches/modules-2/files-2.1/org.eclipse.jetty/jetty-annotations/9.4.5.v20170502/205c9ed6582d8a7108e49de607537fb27989f2b0/jetty-annotations-9.4.5.v20170502-sources.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/VTE09083/.gradle/caches/modules-2/files-2.1/org.eclipse.jetty/jetty-plus/9.4.5.v20170502/4a940f6876761c3a1953b209fb58a046b1c2158d/jetty-plus-9.4.5.v20170502.jar" sourcepath="C:/Users/VTE09083/.gradle/caches/modules-2/files-2.1/org.eclipse.jetty/jetty-plus/9.4.5.v20170502/82aeb937da95693705668f38652f05d794dadc7e/jetty-plus-9.4.5.v20170502-sources.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/VTE09083/.gradle/caches/modules-2/files-2.1/org.eclipse.jetty/jetty-jndi/9.4.5.v20170502/52236b1c82002c2b50239af4eb25eeb27afcb0dc/jetty-jndi-9.4.5.v20170502.jar" sourcepath="C:/Users/VTE09083/.gradle/caches/modules-2/files-2.1/org.eclipse.jetty/jetty-jndi/9.4.5.v20170502/e14f6d83e6a268b2e17b21baa374700929508437/jetty-jndi-9.4.5.v20170502-sources.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/VTE09083/.gradle/caches/modules-2/files-2.1/org.eclipse.jetty/jetty-servlets/9.4.5.v20170502/b2dfc9eb4e7d88c70001a15011e5011d0446e64e/jetty-servlets-9.4.5.v20170502.jar" sourcepath="C:/Users/VTE09083/.gradle/caches/modules-2/files-2.1/org.eclipse.jetty/jetty-servlets/9.4.5.v20170502/92ef76ca3f339e3a878cb4185b5c9f2775603876/jetty-servlets-9.4.5.v20170502-sources.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/VTE09083/.gradle/caches/modules-2/files-2.1/org.eclipse.jetty.http2/http2-server/9.4.5.v20170502/56011b9a9d10a2570f110a8249297a8b861724e3/http2-server-9.4.5.v20170502.jar" sourcepath="C:/Users/VTE09083/.gradle/caches/modules-2/files-2.1/org.eclipse.jetty.http2/http2-server/9.4.5.v20170502/11b1d2983cc2c46e1c95166024dded24534d77cb/http2-server-9.4.5.v20170502-sources.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/VTE09083/.gradle/caches/modules-2/files-2.1/org.eclipse.jetty/jetty-jaspi/9.4.5.v20170502/7819e72f9a1278b9eca12e715828e36717dfc1fa/jetty-jaspi-9.4.5.v20170502.jar" sourcepath="C:/Users/VTE09083/.gradle/caches/modules-2/files-2.1/org.eclipse.jetty/jetty-jaspi/9.4.5.v20170502/8ea1732c68bec50d42ee1030727adef80f331324/jetty-jaspi-9.4.5.v20170502-sources.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/VTE09083/.gradle/caches/modules-2/files-2.1/org.eclipse.jetty/jetty-webapp/9.4.5.v20170502/b8c82f1be608efac5dfe3448e51701a59a7e3f21/jetty-webapp-9.4.5.v20170502.jar" sourcepath="C:/Users/VTE09083/.gradle/caches/modules-2/files-2.1/org.eclipse.jetty/jetty-webapp/9.4.5.v20170502/a28797e6d691ffc521fd2d65b5fba39bdcfd1f25/jetty-webapp-9.4.5.v20170502-sources.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/VTE09083/.gradle/caches/modules-2/files-2.1/org.eclipse.jetty/jetty-servlet/9.4.5.v20170502/394a535b76ca7399b25be3266f06f614e020517e/jetty-servlet-9.4.5.v20170502.jar" sourcepath="C:/Users/VTE09083/.gradle/caches/modules-2/files-2.1/org.eclipse.jetty/jetty-servlet/9.4.5.v20170502/4e85803c8d539aa0a8389e113095ef86032ac425/jetty-servlet-9.4.5.v20170502-sources.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/VTE09083/.gradle/caches/modules-2/files-2.1/org.eclipse.jetty/jetty-security/9.4.5.v20170502/4f4fc4cbe3504b6c91143ee37b38a1f3de2dcc72/jetty-security-9.4.5.v20170502.jar" sourcepath="C:/Users/VTE09083/.gradle/caches/modules-2/files-2.1/org.eclipse.jetty/jetty-security/9.4.5.v20170502/2124a757c87eacea7ad6507be6a415b5b51139b5/jetty-security-9.4.5.v20170502-sources.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/VTE09083/.gradle/caches/modules-2/files-2.1/org.eclipse.jetty/jetty-server/9.4.5.v20170502/b4d30340213c3d2a5f908860ba170c5a697829be/jetty-server-9.4.5.v20170502.jar" sourcepath="C:/Users/VTE09083/.gradle/caches/modules-2/files-2.1/org.eclipse.jetty/jetty-server/9.4.5.v20170502/295d873f609a0e2863f33b5dbc8906ca348f1107/jetty-server-9.4.5.v20170502-sources.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/VTE09083/.gradle/caches/modules-2/files-2.1/org.eclipse.jetty.http2/http2-client/9.4.5.v20170502/a934ab495036ec67f38f166666ed55372d6bf10c/http2-client-9.4.5.v20170502.jar" sourcepath="C:/Users/VTE09083/.gradle/caches/modules-2/files-2.1/org.eclipse.jetty.http2/http2-client/9.4.5.v20170502/6cb5570136e410b771775e321b1f06ea8ecd5891/http2-client-9.4.5.v20170502-sources.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/VTE09083/.gradle/caches/modules-2/files-2.1/org.eclipse.jetty.http2/http2-common/9.4.5.v20170502/d5aa654cf9e4dc0818d897cec6d3cf791b9817b4/http2-common-9.4.5.v20170502.jar" sourcepath="C:/Users/VTE09083/.gradle/caches/modules-2/files-2.1/org.eclipse.jetty.http2/http2-common/9.4.5.v20170502/12dc91a4961032128ed718110e66c5ceb7250e50/http2-common-9.4.5.v20170502-sources.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/VTE09083/.gradle/caches/modules-2/files-2.1/org.eclipse.jetty.http2/http2-hpack/9.4.5.v20170502/68bbaeada8e6692e26dab048a2c0fd4c1e29b3a7/http2-hpack-9.4.5.v20170502.jar" sourcepath="C:/Users/VTE09083/.gradle/caches/modules-2/files-2.1/org.eclipse.jetty.http2/http2-hpack/9.4.5.v20170502/fa36e4182783fed6fa97bd6bf90e4145776f5010/http2-hpack-9.4.5.v20170502-sources.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/VTE09083/.gradle/caches/modules-2/files-2.1/org.eclipse.jetty/jetty-http/9.4.5.v20170502/c51b8a6a67d64672889249dd958edd77bff8fc0c/jetty-http-9.4.5.v20170502.jar" sourcepath="C:/Users/VTE09083/.gradle/caches/modules-2/files-2.1/org.eclipse.jetty/jetty-http/9.4.5.v20170502/c1bee39aeb565a4f26852b1851192d98ab611dbc/jetty-http-9.4.5.v20170502-sources.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/VTE09083/.gradle/caches/modules-2/files-2.1/org.eclipse.jetty/jetty-alpn-client/9.4.5.v20170502/7c5f16fa301a63c61e921d050595098940092cfa/jetty-alpn-client-9.4.5.v20170502.jar" sourcepath="C:/Users/VTE09083/.gradle/caches/modules-2/files-2.1/org.eclipse.jetty/jetty-alpn-client/9.4.5.v20170502/f2c45b6407bad60ef0ceb06105dd5690e2b58165/jetty-alpn-client-9.4.5.v20170502-sources.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/VTE09083/.gradle/caches/modules-2/files-2.1/org.eclipse.jetty.websocket/websocket-common/9.4.5.v20170502/2a385e7b044a1832efa4cf98bc1ea326fa0804c2/websocket-common-9.4.5.v20170502.jar" sourcepath="C:/Users/VTE09083/.gradle/caches/modules-2/files-2.1/org.eclipse.jetty.websocket/websocket-common/9.4.5.v20170502/fb7906d008789a934b25d02f63e515ed41641a43/websocket-common-9.4.5.v20170502-sources.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/VTE09083/.gradle/caches/modules-2/files-2.1/org.eclipse.jetty/jetty-io/9.4.5.v20170502/76086f955d4e943396b8f340fd5bae3ce4da19d9/jetty-io-9.4.5.v20170502.jar" sourcepath="C:/Users/VTE09083/.gradle/caches/modules-2/files-2.1/org.eclipse.jetty/jetty-io/9.4.5.v20170502/8d41e410b2f0dd284a6e199ed08f45ef7ab2acf1/jetty-io-9.4.5.v20170502-sources.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/VTE09083/.gradle/caches/modules-2/files-2.1/org.eclipse.jetty/jetty-xml/9.4.5.v20170502/96c62b93c82682edb1c83ea2f912d7f406080557/jetty-xml-9.4.5.v20170502.jar" sourcepath="C:/Users/VTE09083/.gradle/caches/modules-2/files-2.1/org.eclipse.jetty/jetty-xml/9.4.5.v20170502/4e53e25979ec90f9f58066400baa45f34f4a4da9/jetty-xml-9.4.5.v20170502-sources.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/VTE09083/.gradle/caches/modules-2/files-2.1/org.eclipse.jetty/jetty-util/9.4.5.v20170502/5fd36dfcf39110b809bd9b20cec62706ab694711/jetty-util-9.4.5.v20170502.jar" sourcepath="C:/Users/VTE09083/.gradle/caches/modules-2/files-2.1/org.eclipse.jetty/jetty-util/9.4.5.v20170502/629fcda1e4eecfd795e24cc07715ab9797970980/jetty-util-9.4.5.v20170502-sources.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/VTE09083/.gradle/caches/modules-2/files-2.1/org.eclipse.jetty.websocket/websocket-servlet/9.4.5.v20170502/f6445d583d0bd96ee0896cacd51c6e25a77e3bf8/websocket-servlet-9.4.5.v20170502.jar" sourcepath="C:/Users/VTE09083/.gradle/caches/modules-2/files-2.1/org.eclipse.jetty.websocket/websocket-servlet/9.4.5.v20170502/e2629769e597a50aea8c2468db71e68714eb4511/websocket-servlet-9.4.5.v20170502-sources.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/VTE09083/.gradle/caches/modules-2/files-2.1/javax.websocket/javax.websocket-api/1.0/fc843b649d4a1dcb0497669d262befa3918c7ba8/javax.websocket-api-1.0.jar" sourcepath="C:/Users/VTE09083/.gradle/caches/modules-2/files-2.1/javax.websocket/javax.websocket-api/1.0/107b0fdc7ca320b54dc1393e01585be5883ff348/javax.websocket-api-1.0-sources.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/VTE09083/.gradle/caches/modules-2/files-2.1/javax.servlet/javax.servlet-api/3.1.0/3cd63d075497751784b2fa84be59432f4905bf7c/javax.servlet-api-3.1.0.jar" sourcepath="C:/Users/VTE09083/.gradle/caches/modules-2/files-2.1/javax.servlet/javax.servlet-api/3.1.0/ab3976d4574c48d22dc1abf6a9e8bd0fdf928223/javax.servlet-api-3.1.0-sources.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/VTE09083/.gradle/caches/modules-2/files-2.1/org.eclipse.jetty.orbit/javax.mail.glassfish/1.4.1.v201005082020/b707c39fc080529c4a9ffc1df4eac58421133aaf/javax.mail.glassfish-1.4.1.v201005082020.jar" sourcepath="C:/Users/VTE09083/.gradle/caches/modules-2/files-2.1/org.eclipse.jetty.orbit/javax.mail.glassfish/1.4.1.v201005082020/b12c43ddc708b244291f62c55a440dc272a947ff/javax.mail.glassfish-1.4.1.v201005082020-sources.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/VTE09083/.gradle/caches/modules-2/files-2.1/javax.annotation/javax.annotation-api/1.2/479c1e06db31c432330183f5cae684163f186146/javax.annotation-api-1.2.jar" sourcepath="C:/Users/VTE09083/.gradle/caches/modules-2/files-2.1/javax.annotation/javax.annotation-api/1.2/ad18a02db08eaee697f812e333f692fc51129e4a/javax.annotation-api-1.2-sources.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/VTE09083/.gradle/caches/modules-2/files-2.1/org.ow2.asm/asm-commons/5.1/25d8a575034dd9cfcb375a39b5334f0ba9c8474e/asm-commons-5.1.jar" sourcepath="C:/Users/VTE09083/.gradle/caches/modules-2/files-2.1/org.ow2.asm/asm-commons/5.1/81e81bd6c20b965f88d0462e2559f8759fc6c26d/asm-commons-5.1-sources.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/VTE09083/.gradle/caches/modules-2/files-2.1/org.ow2.asm/asm-tree/5.1/87b38c12a0ea645791ead9d3e74ae5268d1d6c34/asm-tree-5.1.jar" sourcepath="C:/Users/VTE09083/.gradle/caches/modules-2/files-2.1/org.ow2.asm/asm-tree/5.1/81e81bd6c20b965f88d0462e2559f8759fc6c26d/asm-tree-5.1-sources.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/VTE09083/.gradle/caches/modules-2/files-2.1/org.ow2.asm/asm/5.1/5ef31c4fe953b1fd00b8a88fa1d6820e8785bb45/asm-5.1.jar" sourcepath="C:/Users/VTE09083/.gradle/caches/modules-2/files-2.1/org.ow2.asm/asm/5.1/81e81bd6c20b965f88d0462e2559f8759fc6c26d/asm-5.1-sources.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/VTE09083/.gradle/caches/modules-2/files-2.1/org.eclipse.jetty.orbit/javax.security.auth.message/1.0.0.v201108011116/864ac89e01622b020fa2104bfda379692146b3b6/javax.security.auth.message-1.0.0.v201108011116.jar" sourcepath="C:/Users/VTE09083/.gradle/caches/modules-2/files-2.1/org.eclipse.jetty.orbit/javax.security.auth.message/1.0.0.v201108011116/8ef26b3c25ef4841018aba57e2f063c89bbfb194/javax.security.auth.message-1.0.0.v201108011116-sources.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/VTE09083/.gradle/caches/modules-2/files-2.1/org.eclipse.jetty/jetty-continuation/9.4.5.v20170502/cfec8a7dc2e4c28d73407059a0ef1d35eef5325/jetty-continuation-9.4.5.v20170502.jar" sourcepath="C:/Users/VTE09083/.gradle/caches/modules-2/files-2.1/org.eclipse.jetty/jetty-continuation/9.4.5.v20170502/eda5baa17a27b0cce9b78b1e54f2adbd12b12151/jetty-continuation-9.4.5.v20170502-sources.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/VTE09083/.gradle/caches/modules-2/files-2.1/javax.transaction/javax.transaction-api/1.2/d81aff979d603edd90dcd8db2abc1f4ce6479e3e/javax.transaction-api-1.2.jar" sourcepath="C:/Users/VTE09083/.gradle/caches/modules-2/files-2.1/javax.transaction/javax.transaction-api/1.2/5d1fb3fe056fe51e6f6ed9b4ef4898a774ed69c0/javax.transaction-api-1.2-sources.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/VTE09083/.gradle/caches/modules-2/files-2.1/org.eclipse.jetty.websocket/websocket-api/9.4.5.v20170502/521348a576e0d70f4abb7813fa1743919ec0921a/websocket-api-9.4.5.v20170502.jar" sourcepath="C:/Users/VTE09083/.gradle/caches/modules-2/files-2.1/org.eclipse.jetty.websocket/websocket-api/9.4.5.v20170502/60dbd95c5d372124752c0ff47c87cc21bde86f/websocket-api-9.4.5.v20170502-sources.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/VTE09083/.gradle/caches/modules-2/files-2.1/org.eclipse.jetty.orbit/javax.activation/1.1.0.v201105071233/b394a9fbf664ca835452b3ced452710bcf79fd81/javax.activation-1.1.0.v201105071233.jar" sourcepath="C:/Users/VTE09083/.gradle/caches/modules-2/files-2.1/org.eclipse.jetty.orbit/javax.activation/1.1.0.v201105071233/350bd9b2a184ff0b1981809a299d9a663c2e9895/javax.activation-1.1.0.v201105071233-sources.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/VTE09083/.gradle/caches/modules-2/files-2.1/ch.qos.logback/logback-classic/1.2.1/706a8b8206ead3683ec639dd270d11fd948fbb0e/logback-classic-1.2.1.jar" sourcepath="C:/Users/VTE09083/.gradle/caches/modules-2/files-2.1/ch.qos.logback/logback-classic/1.2.1/9fca3c77b4401de7541f01d858b2aec55f4fc51f/logback-classic-1.2.1-sources.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/VTE09083/.gradle/caches/modules-2/files-2.1/ch.qos.logback/logback-core/1.2.1/378913dfc3c6c71e7e2a2853eff2c3e8ac27599/logback-core-1.2.1.jar" sourcepath="C:/Users/VTE09083/.gradle/caches/modules-2/files-2.1/ch.qos.logback/logback-core/1.2.1/8025b15884a6a3909c6b0fe881c81b647f2fc7fe/logback-core-1.2.1-sources.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/VTE09083/.gradle/caches/modules-2/files-2.1/junit/junit/4.11/4e031bb61df09069aeb2bffb4019e7a5034a4ee0/junit-4.11.jar" sourcepath="C:/Users/VTE09083/.gradle/caches/modules-2/files-2.1/junit/junit/4.11/28e0ad201304e4a4abf999ca0570b7cffc352c3c/junit-4.11-sources.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/VTE09083/.gradle/caches/modules-2/files-2.1/org.hamcrest/hamcrest-core/1.3/42a25dc3219429f0e5d060061f71acb49bf010a0/hamcrest-core-1.3.jar" sourcepath="C:/Users/VTE09083/.gradle/caches/modules-2/files-2.1/org.hamcrest/hamcrest-core/1.3/1dc37250fbc78e23a65a67fbbaf71d2e9cbc3c0b/hamcrest-core-1.3-sources.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="output" path="bin/default"/>
 </classpath>
